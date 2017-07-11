@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="buttonTextSize">18dp</dimen>
+    <dimen name="inputTextSize">20dp</dimen>
+    <dimen name="dispalyTextSize">20dp</dimen>
+    <dimen name="jsonTitleSize">20dp</dimen>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hw0036486648.android.fer.hr.FormActivity">
+
+    <EditText
+        android:id="@+id/relativePathInput"
+
+        android:hint="@string/fromInputHint"
+        android:textSize="@dimen/inputTextSize"
+
+        android:inputType="textWebEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/loadButton"
+
+        android:text="@string/loadButtonText"
+
+        android:background="@color/buttonBackgroundColor"
+        android:textColor="@color/buttonForegroundColor"
+        android:textSize="@dimen/buttonTextSize"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativePathInput" />
+
+    <TextView
+        android:id="@+id/title"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/loadButton"
+        android:gravity="center"
+        android:text="@string/jsonTitle"
+        android:textSize="@dimen/jsonTitleSize" />
+
+    <ImageView
+        android:id="@+id/image"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/title"
+        />
+
+    <TextView
+        android:id="@+id/avatar_location"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"/>
+
+    <TextView
+        android:id="@+id/first_name"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/avatar_location"/>
+
+    <TextView
+        android:id="@+id/last_name"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/first_name"/>
+
+    <TextView
+        android:id="@+id/phone_no"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/last_name"
+        android:autoLink="phone"/>
+
+    <TextView
+        android:id="@+id/email_sknf"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone_no"
+        android:autoLink="email"/>
+
+    <TextView
+        android:id="@+id/spouse"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email_sknf"/>
+
+    <TextView
+        android:id="@+id/age"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spouse"/>
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hw0036486648.android.fer.hr.CalculusActivity">
+
+    <EditText
+        android:id="@+id/firstNumberInput"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="@string/calcFirstInputHint"
+
+        android:inputType="numberDecimal"
+        android:textSize="@dimen/inputTextSize" />
+
+    <EditText
+        android:id="@+id/secondNumberInput"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="@string/calcSecondInputHint"
+
+        android:textSize="@dimen/inputTextSize"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/firstNumberInput"/>
+
+    <RadioGroup
+        android:id="@+id/operations"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_below="@id/secondNumberInput">
+
+        <RadioButton
+            android:id="@+id/addRB"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/addRBTitle"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/subRB"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/subRBTitle"/>
+
+        <RadioButton
+            android:id="@+id/divRB"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/divRBTitle"/>
+
+        <RadioButton
+            android:id="@+id/mulRB"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/mulRBTitle" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@color/buttonBackgroundColor"
+        android:textColor="@color/buttonForegroundColor"
+        android:textSize="@dimen/buttonTextSize"
+
+        android:text="@string/calculateButtonName"
+
+        android:layout_below="@+id/operations"/>
+</RelativeLayout>

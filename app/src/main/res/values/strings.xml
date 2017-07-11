@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">HomeworkAssignment</string>
+    <string name="math">Matematika</string>
+    <string name="stats">Statistika</string>
+
+    <string name="fromInputHint">Unestite relativnu putanju...</string>
+    <string name="loadButtonText">Učitaj</string>
+    <string name="jsonTitle">Sadržaj JSON-a:</string>
+
+    <string name="calcFirstInputHint">Unesite prvi broj...</string>
+    <string name="calcSecondInputHint">Unesite drugi broj...</string>
+    <string name="addRBTitle">Zbrajanje</string>
+    <string name="subRBTitle">Oduzimanje</string>
+    <string name="divRBTitle">Dijeljenje</string>
+    <string name="mulRBTitle">Množenje</string>
+    <string name="calculateButtonName">Izračunaj</string>
+
+    <string name="okButtonName">OK</string>
+    <string name="sendReportButtonName">Pošalji izvještaj</string>
+
+</resources>

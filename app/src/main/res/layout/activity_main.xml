@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hw0036486648.android.fer.hr.MainActivity">
+
+    <Button
+        android:id="@+id/math"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/buttonBackgroundColor"
+        android:text="@string/math"
+        android:textColor="@color/buttonForegroundColor"
+        android:textSize="@dimen/buttonTextSize" />
+
+    <Button
+        android:id="@+id/stats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/math"
+        android:background="@color/buttonBackgroundColor"
+        android:text="@string/stats"
+        android:textColor="@color/buttonForegroundColor"
+        android:textSize="@dimen/buttonTextSize" />
+
+</RelativeLayout>
